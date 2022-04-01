@@ -220,3 +220,55 @@
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
 }
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    height: fit-content;
+    background-color: #8bdaca;
+    padding: 2rem 0;
+}
+
+.footer h2{
+    color: hsl(167, 29%, 32%);
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.footer-nav{
+    width: 350px;
+}
+
+.footer-social{
+    width: 200px;
+    margin-top: 4rem;
+}
+
+.footer-nav , .footer-social{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav p{
+    transition: .2s;
+    color: hsl(167, 29%, 32%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer-nav p:hover{
+    color: white;
+}
+
+.footer-social img{
+    transition: .2s;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
