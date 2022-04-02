@@ -35,6 +35,18 @@
 
 .nav-item.contact{
     text-transform: uppercase;
+    border-color: white !important;
+}
+
+.nav-item.contact:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5)  !important;
+
+}
+
+.nav-item.contact:hover a{
+    color: white;
 }
 
 .nav-item a{
@@ -237,7 +249,7 @@
 }
 
 .footer-nav{
-    width: 350px;
+    width: 370px;
 }
 
 .footer-social{
@@ -261,6 +273,7 @@
 
 .footer-nav p:hover{
     color: white;
+    cursor: pointer;
 }
 
 .footer-social img{
@@ -268,7 +281,17 @@
 }
 
 .icon{
-    width: 20px;
-    height: 20px;
+    margin: 0 1rem;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    color: hsl(167, 29%, 32%);
+}
+
+.icon:hover{
+    color: white;
+    cursor: pointer;
 }
 
