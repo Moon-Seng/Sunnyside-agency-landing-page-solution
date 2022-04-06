@@ -20,14 +20,19 @@
             <img src="/images/logo.svg" alt="">
           </div>
   
-          <div class="nav-items">
-            <p class="nav-item"><a href="">About</a></p>
-            <p class="nav-item"><a href="">Service</a></p>
-            <p class="nav-item"><a href="">Projects</a></p>
-            <p class="nav-item contact btn btn-light rounded-pill"><a href="">Contact</a></p>
+          <div class="toggle-nav-items hide-menu">
+
+            
+            <div class="nav-items">
+              <div class="arrow-shape"></div>
+              <p class="nav-item"><a href="">About</a></p>
+              <p class="nav-item"><a href="">Service</a></p>
+              <p class="nav-item"><a href="">Projects</a></p>
+              <p class="nav-item contact btn btn-light rounded-pill"><a href="">Contact</a></p>
+            </div>
           </div>
 
-          <div class="menu d-block d-md-none">
+          <div class="menu d-block d-xl-none">
             <img src="/images/icon-hamburger.svg" alt="">
           </div>
         </div>
@@ -44,8 +49,8 @@
   <section>
     <div class="img-with-text">
 
-      <div class="first-content">
-        <div class="first-text">
+      <div class="first-content  m-0">
+        <div class="first-text order-1 order-lg-0 col-12 col-lg-6">
           <h2 class="heavy-text">Transform your brand</h2>
           <p class="light-text">
             We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
@@ -55,17 +60,19 @@
           </p>
         </div>
 
-        <div class="first-img">
-          <img src="/images/desktop/image-transform.jpg" alt="">
+        <div class="first-img order-0 order-lg-1 col-12 col-lg-6 p-0">
+          <img class="d-none d-lg-block" src="/images/desktop/image-transform.jpg" alt="">
+          <img class="d-block d-lg-none" src="/images/mobile/image-transform.jpg" alt="">
         </div>
       </div>
 
-      <div class="second-content">
-        <div class="second-img">
-          <img src="/images/desktop/image-stand-out.jpg" alt="">
+      <div class="second-content  m-0">
+        <div class="second-img col-12 col-lg-6 p-0">
+          <img class="d-none d-lg-block" src="/images/desktop/image-stand-out.jpg" alt="">
+          <img class="d-block d-lg-none" src="/images/mobile/image-stand-out.jpg" alt="">
         </div>
 
-        <div class="second-text">
+        <div class="second-text col-12 col-lg-6">
           <h2 class="heavy-text">Stand out to the right audience</h2>
           <p class="light-text">
             Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
@@ -76,9 +83,9 @@
         </div>
       </div>
 
-      <div class="third-content">
+      <div class="third-content  m-0">
 
-        <div class="graphic-designer-bg">
+        <div class="graphic-designer-bg p-0">
           <div class="phone-width">
             <h3 class="graphic-designer-title" >Graphic Design</h3>
             <p class="graphic-designer-content">
@@ -87,7 +94,7 @@
           </div>
         </div>
 
-        <div class="photography">
+        <div class="photography p-0">
           <div class="phone-width">
             <h3 class="photography-title">Photography</h3>
             <p class="photography-content">
@@ -135,16 +142,20 @@
     <div class="gallary">
       <div class="row w-100 m-0">
         <div class="col-6 col-lg-3 p-0">
-          <img class="w-100" src="/images/desktop/image-gallery-milkbottles.jpg" alt="">
+          <img class="w-100 d-none d-lg-block" src="/images/desktop/image-gallery-milkbottles.jpg" alt="">
+          <img class="w-100 d-block d-lg-none" src="/images/mobile/image-gallery-milkbottles.jpg" alt="">
         </div>
         <div class="col-6 col-lg-3 p-0">
-          <img class="w-100" src="/images/desktop/image-gallery-orange.jpg" alt="">
+          <img class="w-100 d-none d-lg-block" src="/images/desktop/image-gallery-orange.jpg" alt="">
+          <img class="w-100 d-block d-lg-none" src="/images/mobile/image-gallery-orange.jpg" alt="">
         </div>
         <div class="col-6 col-lg-3 p-0">
-          <img class="w-100" src="/images/desktop/image-gallery-cone.jpg" alt="">
+          <img class="w-100 d-none d-lg-block" src="/images/desktop/image-gallery-cone.jpg" alt="">
+          <img class="w-100 d-block d-lg-none" src="/images/mobile/image-gallery-cone.jpg" alt="">
         </div>
         <div class="col-6 col-lg-3 p-0">
-          <img class="w-100" src="/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+          <img class="w-100 d-none d-lg-block" src="/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+          <img class="w-100 d-block d-lg-none" src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="">
         </div>
       </div>
     </div>
