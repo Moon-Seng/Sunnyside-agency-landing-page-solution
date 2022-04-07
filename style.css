@@ -414,11 +414,12 @@
 
     .first-text ,.second-text{
         text-align: center;
+        padding: 0 4rem;
     }
 
     .first-text h2 , .second-text h2{
         width: 70%;
-        margin: 3rem auto;
+        margin: 2rem auto;
     }
 
     .first-text p , .second-text p{
@@ -503,4 +504,140 @@
         margin-bottom: 3rem;
     }
 
+}
+
+@media screen and (max-width: 576px) {
+    /* NavBar */
+    .nav{
+        padding-top: 2rem;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .menu img{
+        width: 30px;
+    }
+
+    .nav-items{
+        top: 8rem;
+    }
+
+    .arrow-shape{
+        top: -2.5rem;
+    }
+
+    .nav-item a{
+        font-size: 20px;
+    }
+
+    /* Header */
+
+    .header-content{
+        justify-content: center;
+        height: auto;
+    }
+
+    .header-content h1{
+        font-size: 36px;
+        letter-spacing: .5rem;
+        word-spacing: 0;
+        margin: 5rem auto 4rem 0;
+    }
+
+    /* Image with Text */
+
+    .first-text , .second-text{
+        padding: 0;
+    }
+
+    .first-text h2 , .second-text h2{
+        width: 90%;
+    }
+
+    .heavy-text{
+        font-size: 38px;
+        margin: auto;
+    }
+
+    .first-text p , .second-text p{
+        font-size: 20px;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .first.learn-more , .second.learn-more{
+        margin: -2rem auto 1rem auto;
+        color: white;
+        text-shadow: 0 20px 1px black;
+    }
+
+    .phone-width{
+        bottom: 0;
+    }
+
+    .phone-width h3{
+        font-size: 32px;
+    }
+
+    .phone-width p{
+        width: 90%;
+        font-size: 16px;
+        margin-bottom: 3rem;
+    }
+
+    .graphic-designer-bg , .photography{
+        background-size: contain;
+        background-position: center;
+        height: 90vh;
+        background-repeat: no-repeat;
+    }
+
+    /* Testimonials */
+
+    .testimonials{
+        padding: 1.5rem;
+    }
+
+    .testimonials-title{
+        font-size: 16px;
+    }
+
+    .first-feedback , .second-feedback , .third-feedback{
+        margin: 0;
+    }
+
+    .rounded-img{
+        margin-bottom: 2rem;
+    }
+
+    .feedback-text{
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .feedbacker-position{
+        margin-top: .5rem;
+        font-size: 18px;
+    }
+
+    /* Footer */
+
+    .footer h2{
+        font-size: 42px;
+    }
+
+    .footer-nav p{
+        font-size: 20px;
+    }
+
+    .footer-social{
+        margin-top: 2rem;
+    }
+
+    .icon{
+        width: 25px;
+    }
 }
